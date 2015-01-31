@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.jeffcardillo.com.backgroundingexamples" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AsyncTaskExampleActivity"
+            android:label="@string/title_activity_async_task_example"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".JavaThreadExampleActivity"
+            android:label="@string/title_activity_java_thread_example"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".IntentServiceExampleActivity"
+            android:label="@string/title_activity_intent_service_example"
+            android:screenOrientation="portrait" >
+        </activity>
+        <service
+            android:name=".CounterIntentService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

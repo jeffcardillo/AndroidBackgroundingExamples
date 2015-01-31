@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BackgroundingExamples</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_async_task_example">AsyncTaskExampleActivity</string>
+    <string name="title_activity_jcasync_task_example">JCAsyncTaskExampleActivity</string>
+    <string name="title_activity_java_thread_example">JavaThreadExampleActivity</string>
+    <string name="title_activity_intent_service_example">IntentServiceExamleActivity</string>
+    <string name="tips_at_link">More tips at jeffcardillo.com</string>
+
+</resources>
